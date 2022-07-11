@@ -1,0 +1,211 @@
+/* --------------------- *\
+        GENERALES
+\* --------------------- */
+#menu{
+  background: white;
+}
+
+#navbar p{
+  color: #000;
+}
+
+
+.main p {
+  color: white;
+}
+
+/* --------------------- *\
+        ENCABEZADO
+\* --------------------- */
+
+/* --------------------- *\
+           HERO
+\* --------------------- */
+
+#hero-carousel img {
+    height: 80vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+.capa-hero {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.capa-hero .container,
+.container .row {
+    height: 100%;
+}
+
+
+
+/* --------------------- *\
+      Main
+\* --------------------- */
+
+main img {
+  width: 100%;
+  height: 300px;
+}
+
+/* --------------------- *\
+      LUGAR Y FECHA
+\* --------------------- */
+
+#seccion-lugar-fecha {
+  color: black;
+  background-color: #94B3FD;
+}
+/* --------------------- *\
+      PIE DE PAGINA
+\* --------------------- */
+
+.footer {
+   border-top: solid white 2px;
+
+}
+
+#footer a {
+    color: black;
+}
+
+.navbar .navbar-brand {
+    display: flex;
+}
+
+.btn-whatsapp{
+    display: block;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+   background: #000;
+   color: white;
+  }
+  
+  .form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+
+
+  @media only screen and (max-width: 768px) {
+
+    #navbar p{
+      color: white;
+    }
+    
+
+    #logo{
+      display: none;
+    }
+
+    #menu{
+      background: black;
+    }
+
+    .capa-hero img{
+      display: none;
+    }
+
+    #hero-carousel img {
+      height: 50vh;
+      object-fit: cover;
+      filter: grayscale(70%);
+  }
+  }
+
+  @media only screen and (max-width: 360px) {  
+
+    
+    #logo{
+      display: none;
+    }
+
+    .form-register {
+      width: 250px;
+      background: #24303c;
+      padding: 30px;
+      margin: auto;
+      margin-top: 100px;
+      border-radius: 4px;
+      font-family: 'calibri';
+      color: white;
+      box-shadow: 7px 13px 37px #000;
+    }
+  }
