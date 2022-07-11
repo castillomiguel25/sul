@@ -100,9 +100,23 @@ main img {
     padding: 0;
     box-sizing: border-box;
   }
+
+  #adelante{
+    height: 355px;
+    background: #09204d;
+   
+}
+
+
+#back{
+    background: #09204d;
+    height: 355px;
+}
+
   
   body {
-   background: #000;
+    background: radial-gradient(#24303c, black, rebeccapurple);
+   /* background: #000; */
    color: white;
   }
   
@@ -115,7 +129,7 @@ main img {
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
-    box-shadow: 7px 13px 37px #000;
+    box-shadow: 7px 13px 17px white;
   }
   
   .form-register h4 {
@@ -190,7 +204,7 @@ main img {
   }
   }
 
-  @media only screen and (max-width: 360px) {  
+  @media only screen and (max-width: 375px) {  
 
     
     #logo{
@@ -198,7 +212,7 @@ main img {
     }
 
     .form-register {
-      width: 250px;
+      width: 270px;
       background: #24303c;
       padding: 30px;
       margin: auto;

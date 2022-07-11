@@ -3891,7 +3891,7 @@ hr.pattern.pattern-2:after, .divider.pattern.pattern-2:after {
 }
 
 .featured-boxes-style-5 .featured-box .box-content h4, .featured-boxes-style-6 .featured-box .box-content h4, .featured-boxes-style-7 .featured-box .box-content h4 {
-	color: #333940;
+	color: #FFF;
 }
 
 .featured-boxes-style-5 .featured-box .icon-featured, .featured-boxes-style-6 .featured-box .icon-featured, .featured-boxes-style-7 .featured-box .icon-featured {
@@ -3902,16 +3902,19 @@ hr.pattern.pattern-2:after, .divider.pattern.pattern-2:after {
 	width: 75px;
 	margin-top: 0;
 	margin-bottom: 10px;
-	background: #FFF;
+	background: rebeccapurple;
 	border: 1px solid #dfdfdf;
-	color: #777;
+	color: #FFF;
 	line-height: 73px;
+}
+.appear-animation-visible {
+    opacity: 1;
 }
 
 /* Featured Boxes - Style 6 */
 .featured-boxes-style-6 .featured-box .icon-featured {
-	border: 1px solid #cecece;
-	color: #777;
+	border: 1px solid #fff;
+	color: #fff;
 }
 
 .featured-boxes-style-6 .featured-box .icon-featured:after {
